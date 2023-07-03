@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        body {
+            background: rgb(206, 212, 212);
+        }
+        h1 {
+            text-align: center;
+        }
+        
+        text:hover {
+            background-color:rgb(53, 46, 46);
+            font-weight: 700;
+        }
+
+        legend:hover {
+            background-color:rgb(0, 255, 213);
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+    <h1>Form Validation</h1>
+    <p>Name: * <input type="text" name="name" required></p>
+    <p>Email: * <input type="email" name="email" id="email" required></p>
+    <p>Phone Number: * <input type="phone number" name="phone number" id="phone number" required></p>
+    <p>Password: * <input type="password" name="password" id="password"></p>
+    <p>Age: * <input type="number" name="age" id="age" required></p>
+
+    <fieldset>
+        <legend>Gender *</legend>
+    <p>
+        Male <input type="radio"name="gender" id="male" required> Female <input type="radio" name="gender" id="female"required
+    </p>
+</fieldset>
+<p>Date: * <input type="date" name="date"id="date" required></p>
+<input type="submit" value="Submit" style="background-color: rgb(12, 49, 218);
+color: white;">
+</form>
+</body>
+</html>
